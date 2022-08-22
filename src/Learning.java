@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class Learning {
     public static void main(String[] args){
@@ -49,6 +50,12 @@ public class Learning {
         }
         System.out.println("----FOREACH Lambda----");
         itens.forEach(item-> System.out.println(item) );
+
+        System.out.println("------- SCANF-------");
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine();
+        System.out.println(name);
+
     }
 
     static int sum(int x, int y){
